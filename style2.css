@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background: rgb(11,103,168);
+background: linear-gradient(90deg, rgba(11,103,168,1) 0%, rgba(214,238,245,1) 100%);
+    
+}
+
+
+
+.mayor{
+    
+    height: 100%;
+    background: rgb(11,103,168);
+background: linear-gradient(90deg, rgba(11,103,168,1) 0%, rgba(214,238,245,1) 100%);
+    
+}
+
+
+
+.meses{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(imagenes/fondo.jpg);
+    height: 100px;
+    
+}
+
+.fecha{
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+.acuario2{
+    width: 270px;
+    height: 270px;
+    border-radius: 150px;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin: 80px;
+    border: 1px solid black ;
+    padding: 20px;
+    background-color: white;
+}
+
+.parrafo{
+    
+    font-family: 'Bree Serif', serif;
+
+}
+
+.parrafo2{
+    font-family: 'Scada', sans-serif;
+    font-size: 20px;
+    
+}
+
+.boton{
+    width: 130px;
+    height: 50px;
+    background-color:#98C4DD;
+    color: black;
+   border: 1px solid black;
+   border-radius: 30px;
+   font-family: 'Bree Serif', serif;
+   font-size: 25px;
+   
+
+}
+
+
+
+.boton:hover{
+    cursor: pointer;
+}
+
+
+.constelacion{
+    width: 600px;
+    height: 300px;
+    
+}
+
+
+.datos1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+ 
+}
+
+.tipo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tituloParrafo{
+    
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+.volver{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(imagenes/fondo.jpg);
+    height: 100px;
+
+}
+
