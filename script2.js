@@ -124,7 +124,7 @@ switch (signo) {
 if(signo){
     console.log('pagina2')
 
-    imgParrafo.src= `imagenes/${signo}.png`;
+    imgParrafo.src= `imagenes/${signo.toLowerCase()}.png`;
   
     imgConstelacion.src= `imagenes/cons${signo}.jpg`;
     divTipo.innerHTML= tipo;
